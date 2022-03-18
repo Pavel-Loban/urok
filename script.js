@@ -14,8 +14,8 @@ let appData = {
     incom: [],
     savings: false
 };
-let month = 30;
 
-alert('Бюджет на один день равен '+ money/month);
+
+alert('Бюджет на один день равен '+ money/30);
 console.log(appData.budjet);
 console.log(appData.timeData);
