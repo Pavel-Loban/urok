@@ -21,10 +21,10 @@ let appData = {
 // appData.exspenses.question3 = question4;
 
 
-for(let i = 2; i>0; i--)
+// for(let i = 2; i>0; i--)
 
 
-// for(let i = 0; i<2; i++)
+for(let i = 0; i<2; i++)
 {
     let a = prompt('Введите обязательную статью расходов в этом месяце','');
     let b = prompt('Во сколько обойдется?','');
@@ -34,10 +34,10 @@ for(let i = 2; i>0; i--)
         console.log('done');
         appData.exspenses[a] = b;
     }else{
-        i++;
+        i--;
 
     }
-}
+};
 
 appData.moneyPerDay = appData.budjet / 30;
 

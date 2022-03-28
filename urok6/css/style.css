@@ -1,0 +1,73 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(173, 19, 19);
+    margin-bottom: 20px;
+}
+
+button{
+    background: black;
+    width: 100px;
+    height: 30px;
+    border-radius:10%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background:rgb(107, 42, 192);
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.heart{
+    width: 100px;
+    height: 175px;
+    position: relative;
+    background-color: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(315deg);
+    box-shadow: -1px 0px 2px #444;
+    box-shadow: 0px 3px 3px #444444;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    display: inline-flex;
+
+}
+
+.heart:before {
+    position: absolute;
+    width: 175px;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-color: red;
+    box-shadow: 0px 3px 3px #444444;
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 0 50px 50px 0;
+}
+
+.heart:hover:before, .heart:hover{
+    box-shadow:none;
+}
+
+ .black {
+    width: 200px;
+    height: 100px;
+    background: rgb(5, 0, 0);
+    background-image: green;
+    color:beige;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
